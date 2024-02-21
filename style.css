@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    overflow-x: hidden;
+}
+#parallax{
+    position: relative;
+    background: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.content {
+    position: absolute;
+    top: 40%; /* Position the text vertically at 50% of the container */
+    left: 50%; /* Position the text horizontally at 50% of the container */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    color: black; /* Example text color */
+    font-size: 100px; /* Example font size */
+    font-weight: 800;
+  }
+
+
+#parallax img{
+
+}
+
+#parallax #left-tree{
+    position: absolute;
+  
+    
+}
+#parallax #right-tree{
+    position: absolute;
+   
+}
+#parallax #left-gate{
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
+   transform: translateX(-282px);
+   
+}
+#parallax #right-gate{
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
+   transform: translateX(305px);
+}
+
+#parallax #grass{
+    
+    display: flex;
+}
+
+.text {
+    
+      color: wheat;
+      background-color: black;
+    }
+
+.text h1{
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
