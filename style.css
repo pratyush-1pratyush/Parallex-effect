@@ -27,38 +27,39 @@ body{
   }
 
 
-#parallax img{
+#parallax img:not(.grass){
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
 
 }
 
 #parallax #left-tree{
+   
     position: absolute;
   
     
 }
 #parallax #right-tree{
+   
     position: absolute;
    
 }
 #parallax #left-gate{
-    position: absolute;
-    width: 100%;
-    top:0;
-    left:0;
+  
    transform: translateX(-282px);
    
 }
 #parallax #right-gate{
-    position: absolute;
-    width: 100%;
-    top:0;
-    left:0;
+ 
    transform: translateX(305px);
 }
 
 #parallax #grass{
     
     display: flex;
+    width: 100%;
 }
 
 .text {
