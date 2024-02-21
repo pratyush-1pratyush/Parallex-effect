@@ -18,7 +18,7 @@ body{
 }
 .content {
     position: absolute;
-    top: 40%; /* Position the text vertically at 50% of the container */
+    top: 40%; /* Position the text vertically at 40% of the container */
     left: 50%; /* Position the text horizontally at 50% of the container */
     transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
     color: black; /* Example text color */
@@ -27,7 +27,7 @@ body{
   }
 
 
-#parallax img:not(.grass){
+#parallax img:not(.grass){ /* :not(.className) is used to exclude any particular element */
     position: absolute;
     width: 100%;
     top:0;
